@@ -39,6 +39,11 @@ export default {};
 								</v-flex>
 							</v-layout>
 						</v-container>
+						<v-card-actions>
+							<v-spacer></v-spacer>
+							<v-btn flat round color="red">Cancel</v-btn>
+							<v-btn round color="primary">Submit</v-btn>
+						</v-card-actions>
 					</v-card>
 				</v-flex>
 			</v-layout>
