@@ -28,7 +28,11 @@ module.exports = {
 				href:
 					'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons',
 			},
-			{ rel: 'stylesheet', href: 'https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css'}
+			{
+				rel: 'stylesheet',
+				href:
+					'https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css',
+			},
 		],
 	},
 
@@ -37,6 +41,9 @@ module.exports = {
 	 */
 	loading: { color: '#fff' },
 
+	// router: {
+	// 	base: '/posts',
+	// },
 	/*
 	 ** Global CSS
 	 */
